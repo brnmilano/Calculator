@@ -5,6 +5,7 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import styles from "./styles.module.scss";
 import { createContext, useContext, useMemo, useState } from 'react';
+import { Home } from '../../screens/Home';
 
 const ColorModeContext = createContext({ toggleColorMode: () => { } });
 
@@ -20,7 +21,6 @@ function DarkMode() {
         justifyContent: 'center',
         bgcolor: 'background.default',
         color: 'text.primary',
-        borderRadius: 1,
         p: 3,
       }}
     >
@@ -34,6 +34,8 @@ function DarkMode() {
             <LightModeIcon />
           </IconButton>
         </Box>
+
+        <Home />
       </Box>
     </Box>
   );
