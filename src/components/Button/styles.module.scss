@@ -1,0 +1,43 @@
+.button {
+  &.buttonOutlined {
+    background-color: var(--secondaryDark);
+    border-radius: 10px;
+    border: none;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: none;
+    padding: 0;
+
+    &:hover {
+      background-color: var(--hoverDark);
+      border: none;
+    }
+  }
+
+  &:hover {
+    border: none;
+    background-color: var(--white);
+  }
+
+  &.textButton {
+    color: var(--text);
+    font-size: 12px;
+    text-transform: none;
+  }
+
+  &.buttonSizeLarge {
+    padding: 11px 60px;
+  }
+
+  &.butonSizeMedium {
+    padding: 6px 30px;
+  }
+}
+
+.buttonDisabled {
+  &.buttonOutlined {
+    background-color: var(--gray);
+    color: white;
+  }
+}
