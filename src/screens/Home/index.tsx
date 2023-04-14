@@ -5,10 +5,7 @@ import ToggleColorMode from "../../components/Theme";
 export function Home() {
   return (
     <Box className={styles.container}>
-      <Box>
-        <ToggleColorMode />
-      </Box>
-      <Box>Home</Box>
+      <Box>Aqui é a home</Box>
     </Box>
   );
 }

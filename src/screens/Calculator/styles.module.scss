@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  padding: 20px;
+
+  .calculatorItems {
+    display: flex;
+    border-radius: 10px;
+    background-color: var(--primaryDark);
+
+    .moreOperatos {
+      display: grid;
+      grid-template-columns: 50px 50px 50px;
+      grid-template-rows: 60px;
+      gap: 15px 30px;
+      grid-template-areas: ". . .";
+      padding: 20px 15px 0 20px;
+    }
+
+    .numbers {
+      display: grid;
+      grid-template-columns: 65px 65px 65px;
+      grid-template-rows: 45px 45px 45px 45px;
+      gap: 15px 15px;
+      grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . .";
+      padding: 0 15px 20px 20px;
+    }
+
+    .operators {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px 20px 20px 0;
+    }
+  }
+}
