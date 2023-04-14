@@ -1,1 +1,1 @@
-export const home_path = "/home";
+export const calculator_path = "/calculadora";

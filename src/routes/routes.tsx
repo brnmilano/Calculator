@@ -1,10 +1,15 @@
+import { Calculator } from "../screens/Calculator";
 import { Home } from "../screens/Home";
 import { RouteProps } from "../types/routes";
-import { home_path } from "./models";
+import { calculator_path } from "./models";
 
-export const routs: RouteProps[] = [
+export const routes: RouteProps[] = [
   {
-    path: home_path,
+    path: "/",
     element: <Home />
+  },
+  {
+    path: calculator_path,
+    element: <Calculator />
   },
 ]
