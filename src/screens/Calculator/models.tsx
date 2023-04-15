@@ -2,75 +2,52 @@ import ReplayIcon from "@mui/icons-material/Replay";
 
 export const numbers = [
   {
-    value: 1,
-    label: <ReplayIcon />,
+    value: "7",
   },
   {
-    value: 2,
-    label: "0",
+    value: "8",
   },
   {
-    value: 3,
-    label: ".",
+    value: "9",
   },
   {
-    value: 4,
-    label: "1",
+    value: "4",
   },
   {
-    value: 5,
-    label: "2",
+    value: "5",
   },
   {
-    value: 6,
-    label: "3",
+    value: "6",
   },
   {
-    value: 7,
-    label: "4",
+    value: "1",
   },
   {
-    value: 8,
-    label: "5",
+    value: "2",
   },
   {
-    value: 9,
-    label: "6",
+    value: "3",
   },
   {
-    value: 10,
-    label: "7",
-  },
-  {
-    value: 11,
-    label: "8",
-  },
-  {
-    value: 12,
-    label: "9",
+    value: "0",
   },
 ];
 
 export const operators = [
   {
-    value: 1,
-    label: "/",
+    value: "/",
   },
   {
-    value: 2,
-    label: "x",
+    value: "x",
   },
   {
-    value: 3,
-    label: "-",
+    value: "-",
   },
   {
-    value: 4,
-    label: "+",
+    value: "+",
   },
   {
-    value: 5,
-    label: "=",
+    value: "=",
   },
 ]
 
