@@ -2,58 +2,67 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-content: space-around;
+  align-items: center;
+  justify-content: center;
   padding: 16px;
+  height: 100vh;
 
-  .valuesWrapper {
+  .calculator {
     background-color: var(--secondaryDark);
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
-    color: white;
-    font-size: 50px;
-  }
+    border-radius: 30px;
 
-  .calculatorItems {
-    display: flex;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    background-color: var(--primaryDark);
-
-    .moreOperatos {
-      display: grid;
-      grid-template-columns: 50px 50px 50px;
-      grid-template-rows: 60px;
-      gap: 15px 30px;
-      grid-template-areas: ". . .";
-      padding: 20px 15px 0 20px;
-
-      button {
-        color: var(--moreOperators);
-      }
-    }
-
-    .numbers {
-      display: grid;
-      grid-template-columns: 65px 65px 65px;
-      grid-template-rows: 45px 45px 45px 45px;
-      gap: 15px 15px;
-      grid-template-areas:
-        ". . ."
-        ". . ."
-        ". . ."
-        ". . .";
-      padding: 0 15px 20px 20px;
-    }
-
-    .operators {
+    .valuesWrapper {
+      background-color: var(--secondaryDark);
+      height: 120px;
+      align-items: center;
+      padding: 0 20px;
       display: flex;
-      flex-direction: column;
-      gap: 15px;
-      padding: 20px 20px 20px 0;
+      justify-content: flex-end;
+      color: white;
+      font-size: 50px;
+      border-radius: 30px;
+    }
 
-      button {
-        color: var(--operators);
+    .calculatorItems {
+      display: flex;
+      border-radius: 30px;
+      background-color: var(--primaryDark);
+
+      .moreOperatos {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 60px;
+        gap: 15px 30px;
+        grid-template-areas: ". . .";
+        padding: 20px 15px 0 20px;
+
+        button {
+          color: var(--moreOperators);
+        }
+      }
+
+      .numbers {
+        display: grid;
+        grid-template-columns: 65px 65px 65px;
+        grid-template-rows: 45px 45px 45px 45px;
+        gap: 15px 15px;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . .";
+        padding: 0 15px 20px 20px;
+      }
+
+      .operators {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 20px 20px 0;
+
+        button {
+          color: var(--operators);
+        }
       }
     }
   }

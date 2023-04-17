@@ -1,0 +1,13 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: var(--white);
+  scroll-behavior: smooth;
+  color: var(--text);
+
+  h1 {
+    margin: 0;
+  }
+}

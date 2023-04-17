@@ -50,18 +50,3 @@ export const operators = [
     value: "=",
   },
 ]
-
-export const moreOperators = [
-  {
-    value: 1,
-    label: "AC",
-  },
-  {
-    value: 2,
-    label: "-/+",
-  },
-  {
-    value: 3,
-    label: "%",
-  },
-]
