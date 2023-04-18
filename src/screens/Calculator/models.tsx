@@ -29,6 +29,9 @@ export const numbers = [
     value: "3",
   },
   {
+    value: ".",
+  },
+  {
     value: "0",
   },
 ];

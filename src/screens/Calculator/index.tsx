@@ -52,6 +52,11 @@ export function Calculator() {
       return
     }
 
+    if (newOperator === "-/+") {
+      setNumber(String(Number(number) * -1))
+      return
+    }
+
     handleClearCalculator()
     setOldNumber(number)
     setOperator(newOperator);
@@ -88,7 +93,7 @@ export function Calculator() {
               {numbers.map(number => {
                 return (
                   <Box className={styles.orderNumber}>
-                    <Button onClick={() => handleClickNumberCalculator(number.value)} size='small'>
+                    <Button onClick={() => handleClickNumberCalculator(number.value)} size={number.value === "0" ? 'large' : 'small'}>
                       {number.value}
                     </Button>
                   </Box>

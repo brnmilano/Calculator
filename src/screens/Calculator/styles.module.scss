@@ -6,6 +6,7 @@
   justify-content: center;
   padding: 16px;
   height: 100vh;
+  background-color: #3036444d;
 
   .calculator {
     background-color: var(--secondaryDark);
@@ -19,8 +20,10 @@
       display: flex;
       justify-content: flex-end;
       color: white;
-      font-size: 50px;
+      font-size: 28px;
       border-radius: 30px;
+      overflow: hidden;
+      width: 340px;
     }
 
     .calculatorItems {
