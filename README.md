@@ -25,5 +25,5 @@ Para iniciar o desenvolvimento com atualização em tempo real no navegador, uti
 Para visualizar o programa em produção e mobile em seu celular, acesse:
 
 ```
-    https://corebiz.vercel.app/
+    https://calculator-brnmilano.vercel.app/
 ```
